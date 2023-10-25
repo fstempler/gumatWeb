@@ -1,0 +1,50 @@
+.navbar__container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar{
+    background-color: #17171750;
+}
+.logo{
+    width: 10%;
+    height: auto;
+}
+.buttons__Container{
+    padding-right: 15px;    
+}
+.LanguageBtn{
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+.nav__Btn{    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;  
+}
+.link__Style{
+    color: #ffffff;
+}
+
+.nav__LanguageBtn-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width: 460px) {
+    .logo{
+        width: 25%;
+    }
+    .logoContainer{
+        width: 50%;
+    }
+    .nav__LanguageBtn-Container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: start;
+    }
+}
