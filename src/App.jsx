@@ -7,6 +7,7 @@ import Pilars from './components/Pilars/Pilars';
 import Products from './components/Products/Products';
 import Partners from './components/Partners/Partners';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Products />
         <Partners />
         <Contact />
+        <Footer />
       </BrowserRouter>
   )
 }

@@ -1,0 +1,57 @@
+.footer__MainContainer{
+    padding: 15px;
+    background-color: #171717;
+}
+
+.footer__Data-Container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+.footer__Data-Item{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px 0;
+}
+.footer__Copyright-Container{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__Copyright{
+    color: #fff;
+    text-align: center;
+    margin: 15px 0;
+}
+.footer__Sitemap-Container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer__Sitemap-Link{
+    text-decoration: none;
+    color: #fff;      
+}
+
+.footer__List{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 460px){
+    .footer__Data-Container{
+        justify-content: center;
+    }
+    .footer__Data-Item{
+        text-align: center;     
+        text-decoration: none;   
+    }
+    .footer__Sitemap-Container{
+        justify-content: center;
+    }
+}
+a{
+    text-decoration: none;
+}

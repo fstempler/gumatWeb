@@ -24,7 +24,7 @@
     align-items: center;    
     padding: 20px;
     flex-direction: column;
-    top: 300px;
+    top: 200px;
 }
 .form__Input-Container{
     width: 50%;
@@ -38,7 +38,8 @@
 .form__Input{
     width: 100%;
     background-color: #ffffff10;
-    border-color: #ED7F38;    
+    border-color: #ED7F38; 
+    margin: 5px 0;   
 }
 .form__Input::placeholder {
     color: #fff;
@@ -76,7 +77,7 @@
 
 @media (max-width: 460px){
     .contact__Form-Container{
-        top: 0;
+        top: 50px;        
     }
 }
 
