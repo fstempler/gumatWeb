@@ -1,0 +1,49 @@
+.partners__MainContainer{
+    background-image: url(../../assets/alt_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    margin: 0;    
+}
+
+.partners__Title-Container{
+    padding: 20px;
+}
+
+.partners__Title{
+    color: #fff;
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+.partners__Card-Main-Container{
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+    width: 100%;    
+}
+.partners__CardContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+
+@media (max-width: 460px) {
+      
+    .partners__CardContainer{
+        flex-direction: column;
+        top: 0;
+        gap: 10px;
+    }
+    .partners__Title{     
+        text-align: center;        
+    }
+    
+}

@@ -1,0 +1,82 @@
+.contact__MainContainer{
+    background-image: url(../../assets/contact/CONTACTANOS.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    margin: 0;   
+}
+
+.contact__Title-Container{
+    padding: 20px;
+}
+.contact__Title{
+    color: #fff;
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 200;
+}
+.contact__Form-Container{      
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 20px;
+    flex-direction: column;
+    top: 300px;
+}
+.form__Input-Container{
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ED7F38;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #00000070;
+}
+.form__Input{
+    width: 100%;
+    background-color: #ffffff10;
+    border-color: #ED7F38;    
+}
+.form__Input::placeholder {
+    color: #fff;
+}
+.form__Input-Message{
+    width: 100%;
+    background-color: #ffffff10;
+    border-color: #ED7F38;    
+}
+.form__Input-Message::placeholder {
+    color: #fff;
+}
+
+.form__Logo-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.form__Logo{
+    width: 50%;
+    height: auto;
+}
+
+.form__Btn-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__Btn{
+    background-color: #ED7F38;
+    width: 100%;    
+    font-weight: 800px;    
+}
+
+@media (max-width: 460px){
+    .contact__Form-Container{
+        top: 0;
+    }
+}
+

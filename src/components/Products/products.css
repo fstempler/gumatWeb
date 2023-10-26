@@ -1,0 +1,54 @@
+.products__MainContainer{
+    background-image: url(../../assets/products/productsBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    margin: 0;    
+}
+
+.products__CardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+    position: relative;      
+    top: 300px;
+}
+
+.products__Title-Container{
+    padding: 20px;
+}
+.products__Title{
+    color: #000;
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+@media (max-width: 460px) {
+    .products__MainContainer{
+        background-image: url(../../assets/alt_background.jpg);
+        background-repeat: repeat;
+        background-size: contain;
+        height: 100%;
+        padding: 10px;
+    }    
+    .products__CardContainer{
+        flex-direction: column;
+        top: 0;
+    }
+    .products__Title-Container{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .products__Title{
+        color: #fff;
+        text-align: center;
+    }
+
+}
+

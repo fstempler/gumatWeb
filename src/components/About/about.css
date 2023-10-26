@@ -1,0 +1,44 @@
+.about__MainContainer{
+    background-image: url(../../assets/About/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    margin: 0;
+}
+
+.about__Title-Container{
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+    position: relative;    
+    padding: 20px;    
+}
+.about__Title{
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+.about__Text-Container{
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+    position: relative;
+    top: 5%;
+    padding: 20px;    
+    width: 50%;
+}
+
+.about__Text{
+    color: white;
+}
+
+@media (max-width: 460px) {
+    .about__Text-Container{        
+        width: 90%;
+        text-align: center;
+    } 
+
+}

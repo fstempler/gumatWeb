@@ -1,0 +1,16 @@
+.partnersCard__Main-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.partnersCard__Img{
+    width: 30%;
+    height: auto;
+}
+.partnersCard__Title{
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+}
