@@ -14,30 +14,45 @@ const Products = () => {
                     PRODUCTOS
                 </h1>
             </div>
-            <div className='container'>
+            
             <div className='products__CardContainer'>
-                <ProductCard 
-                    imageUrl={potencia}
-                    title={"Potencia"}
-                    text={"Acá va el texto"}
-                />
-                <ProductCard 
-                    imageUrl={lineales}
-                    title={"Lineales"}
-                    text={"Acá va el texto"}
-                />
-                <ProductCard 
-                    imageUrl={automotriz}
-                    title={"Automotriz"}
-                    text={"Acá va el texto"}
-                />
-                <ProductCard 
-                    imageUrl={horticultura}
-                    title={"Horticultura"}
-                    text={"Acá va el texto"}
-                />
+                <div className='row'>
+                    <div className='col-lg-3 products__Card-Self-Container'>
+                        <ProductCard 
+                        imageUrl={potencia}
+                        title={"Potencia"}
+                        text={"Acá va el texto"}
+                        />
+                    </div>
+
+                    <div className='col-lg-3 products__Card-Self-Container'>
+                      <ProductCard 
+                        imageUrl={lineales}
+                        title={"Lineales"}
+                        text={"Acá va el texto"}
+                        />
+                    </div>
+                    <div className='col-lg-3 products__Card-Self-Container'>
+                        <ProductCard 
+                        imageUrl={automotriz}
+                        title={"Automotriz"}
+                        text={"Acá va el texto"}
+                        />
+                    </div>
+                    <div className='col-lg-3 products__Card-Self-Container'>
+                        <ProductCard 
+                        imageUrl={horticultura}
+                        title={"Horticultura"}
+                        text={"Acá va el texto"}
+                        />
+                    </div>
+                </div>
+                
+                
+                
+                
             </div>
-            </div>
+            
             
         </div>
             

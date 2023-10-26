@@ -20,25 +20,41 @@
     font-size: 4rem;
     font-weight: 200;
 }
+.about__Data-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .about__Text-Container{
     display: flex;
     justify-content: left;
     align-items: center;    
-    position: relative;
-    top: 5%;
-    padding: 20px;    
-    width: 50%;
+    position: relative;    
+    padding: 20px;        
 }
 
 .about__Text{
     color: white;
 }
+.about__Video-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__Video{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
 
 @media (max-width: 460px) {
-    .about__Text-Container{        
-        width: 90%;
+    .about__Text-Container{                
+        justify-content: center;
         text-align: center;
     } 
+    .about__Text{
+        font-size: 0.8rem;
+    }
 
 }

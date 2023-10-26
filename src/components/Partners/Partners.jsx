@@ -10,7 +10,7 @@ const Partners = () => {
                     PARTNERS
                 </h1>
             </div>
-            <div className='container partners__Card-Main-Container'>
+            <div className='partners__Card-Main-Container'>
                 <div className='partners__CardContainer'>
                     <PartnersCard
                     imageUrl={Shell_logo}

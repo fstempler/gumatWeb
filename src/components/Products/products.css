@@ -5,7 +5,7 @@
     background-position: center;
     height: 100vh;
     width: auto;
-    margin: 0;    
+    margin: 0;     
 }
 
 .products__CardContainer{
@@ -15,13 +15,18 @@
     gap: 10px;  
     position: relative;      
     top: 300px;
+    overflow-y: hidden;   
+}
+.products__Card-Self-Container{
+    display: flex;
+    justify-content: center;
 }
 
 .products__Title-Container{
     padding: 20px;
 }
 .products__Title{
-    color: #000;
+    color: #fff;
     text-align: left;
     font-size: 4rem;
     font-weight: 200;
@@ -30,14 +35,14 @@
 @media (max-width: 460px) {
     .products__MainContainer{
         background-image: url(../../assets/alt_background.jpg);
-        background-repeat: repeat;
-        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 100%;
         padding: 10px;
     }    
     .products__CardContainer{
         flex-direction: column;
-        top: 0;
+        top: 0;        
     }
     .products__Title-Container{
         padding: 0;
