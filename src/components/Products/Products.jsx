@@ -17,7 +17,7 @@ const Products = () => {
             
             <div className='products__CardContainer'>
                 <div className='row'>
-                    <div className='col-md-6 col-lg-3 products__Card-Self-Container'>
+                    <div className='col-xl-3 col-md-6 col-lg-6 products__Card-Self-Container'>
                         <ProductCard 
                         imageUrl={potencia}
                         title={"Potencia"}
@@ -25,21 +25,21 @@ const Products = () => {
                         />
                     </div>
 
-                    <div className='col-md-6 col-lg-3 products__Card-Self-Container'>
+                    <div className='col-xl-3 col-md-6 col-lg-6 products__Card-Self-Container'>
                       <ProductCard 
                         imageUrl={lineales}
                         title={"Lineales"}
                         text={"Acá va el texto"}
                         />
                     </div>
-                    <div className='col-md-6 col-lg-3 products__Card-Self-Container'>
+                    <div className='col-xl-3 col-md-6 col-lg-6 products__Card-Self-Container'>
                         <ProductCard 
                         imageUrl={automotriz}
                         title={"Automotriz"}
                         text={"Acá va el texto"}
                         />
                     </div>
-                    <div className='col-md-6 col-lg-3 products__Card-Self-Container'>
+                    <div className='col-xl-3 col-md-6 col-lg-6 products__Card-Self-Container'>
                         <ProductCard 
                         imageUrl={horticultura}
                         title={"Horticultura"}
