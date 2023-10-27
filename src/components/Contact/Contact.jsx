@@ -4,7 +4,7 @@ import Logo from '../../assets/logo_Gumat.png';
 
 const Contact = () => {
     return (
-        <div className='contact__MainContainer'>
+        <div id='Contact' className='contact__MainContainer'>
             <div className='contact__Title-Container'>
                 <h1 className='contact__Title'>CONTACTO</h1>
             </div>

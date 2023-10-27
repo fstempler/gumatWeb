@@ -3,10 +3,10 @@ import video from '../../assets/About/VID-2.mp4';
 
 const About = () => {
     return (
-        
-        <div className='about__MainContainer'>
+        <>
+        <div id='About' className='about__MainContainer'>
             <div className='about__Title-Container'>
-                <h1 className='about__Title'>
+                <h1 className='about__Title' >
                     NOSOTROS
                 </h1>                
             </div>
@@ -47,7 +47,7 @@ const About = () => {
             
 
         </div>
-     
+        </>
     )
 }
 

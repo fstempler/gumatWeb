@@ -8,8 +8,8 @@ import secreto from '../../assets/pilars/secreto.png';
 
 const Pilars = () => {
     return (
-        <>
-        <div className='pilars__MainContainer'>
+        
+        <div id='Pilars' className='pilars__MainContainer'>
             <div className='pilars__Title-Container'>
                 <h1 className='pilars__Title'>PILARES</h1>
             </div>
@@ -37,7 +37,7 @@ const Pilars = () => {
 
         </div>
         
-        </>
+        
     )
 };
 

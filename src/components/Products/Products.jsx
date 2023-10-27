@@ -8,7 +8,7 @@ import horticultura from '../../assets/products/horticultura.jpg';
 const Products = () => {
     return (
         <>
-        <div className='products__MainContainer'>
+        <div id='Products' className='products__MainContainer'>
             <div className='products__Title-Container'>
                 <h1 className='products__Title'>
                     PRODUCTOS

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 import './footer.css'
 
 const Footer = () => {
@@ -32,16 +32,19 @@ const Footer = () => {
                 <div className='col-lg-6 order-lg-2 order-2 footer__Sitemap-Container'>
                         <ul className='footer__List'>
                             <li>
-                                <Link to='#' className='footer__Sitemap-Link'>Nosotros</Link>
+                                <Link to='#Header' className='footer__Sitemap-Link'>Inicio</Link>
                             </li>
                             <li>
-                                <Link to='#' className='footer__Sitemap-Link'>Pilares</Link>
+                                <Link to='#About' className='footer__Sitemap-Link'>Nosotros</Link>
                             </li>
                             <li>
-                                <Link to='#' className='footer__Sitemap-Link'>Productos</Link>
+                                <Link to='#Pilars' className='footer__Sitemap-Link'>Pilares</Link>
                             </li>
                             <li>
-                                <Link to='#' className='footer__Sitemap-Link'>Contacto</Link>
+                                <Link to='#Products' className='footer__Sitemap-Link'>Productos</Link>
+                            </li>
+                            <li>
+                                <Link to='#Contact' className='footer__Sitemap-Link'>Contacto</Link>
                             </li>
                         </ul>
                 </div>                
