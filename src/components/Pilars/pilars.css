@@ -6,13 +6,12 @@
     height: 100%;
     width: auto;
     margin: 0;
-    
+    padding: 100px 0;
 }
 .pilars__Cards-Container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+    align-items: center;    
 }
 .pilars__Container{
     display: flex;

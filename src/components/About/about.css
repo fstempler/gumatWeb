@@ -6,6 +6,7 @@
     height: 100%;
     width: auto;
     margin: 0;
+    padding: 100px 0;
 }
 
 .about__Title-Container{
@@ -24,6 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .about__Text-Container{
