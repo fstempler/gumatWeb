@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;    
     background-position: center;
-    height: 100vh;
+    height: 100%;
     width: auto;
     margin: 0;        
 }
@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center;    
     width: 100%;     
+    padding: 50px;
 }
 .partners__CardContainer{
     width: 100%;
@@ -31,12 +32,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 300px;
+    position: relative;    
 }
 
 @media (max-width: 460px) {
-      
+     
     .partners__CardContainer{
         flex-direction: column;
         top: 0;

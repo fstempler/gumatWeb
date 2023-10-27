@@ -1,7 +1,7 @@
-.carousel__Img{
+/* .carousel__Img{
     width: 100%;
     height: 1080px;
-}
+} */
 
 .carousel-caption {
     left: 0; /* Coloca el texto a la izquierda de la imagen */
@@ -23,5 +23,17 @@
 }
 .header__Carousel-Text{
     font-size: 1rem;
-    width: 40%;
+    width: 100%;
+}
+
+@media (max-width: 980px) {
+    .header__Carousel-Title{
+        font-size: 2rem;        
+    }
+    .header__Carousel-Subtitle{
+        font-size: 1rem;        
+    }
+    .header__Carousel-Text{
+        font-size: 0.8rem;        
+    }
 }
