@@ -8,7 +8,12 @@
     justify-content: flex-start;
     align-items: center;    
 }
-
+.footer__Data-Item-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
 .footer__Data-Item{
     text-decoration: none;
     color: #fff;
@@ -44,14 +49,18 @@
     .footer__Data-Container{
         justify-content: center;
     }
+    .footer__Data-Item-Container{
+        justify-content: center;
+    }
     .footer__Data-Item{
         text-align: center;     
         text-decoration: none;   
     }
     .footer__Sitemap-Container{
         justify-content: center;
+        text-align: center;
     }
 }
 a{
-    text-decoration: none;
+    text-decoration: none;    
 }

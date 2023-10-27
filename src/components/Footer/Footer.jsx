@@ -7,22 +7,23 @@ const Footer = () => {
             <div className='row'>
                 <div className='col-lg-6 order-lg-1 order-1 footer__Data-Container'>
                     <ul className='footer__List'>
-                        <li>
-                            <a href='mailto:ventas@gumatsrl.com'>
-                               <p className='footer__Data-Item'>ventas@gumatsrl.com</p>
+                        <li className='footer__Data-Item-Container'>
+
+                            <a href='mailto:ventas@gumatsrl.com' className='footer__Data-Item'>                                
+                                <i className="bi bi-envelope"></i> ventas@gumatsrl.com
                             </a>                            
                         </li>
-                        <li>
+                        <li className='footer__Data-Item'>
                             <p className='footer__Data-Item'>
-                                + 54 11 3943 3311
+                                <i className="bi bi-telephone"></i>  + 54 11 3943 3311
                             </p>
                             <p className='footer__Data-Item'>
-                                + 54 11 3341 2690
+                                <i className="bi bi-telephone"></i> + 54 11 3341 2690
                             </p>
                         </li>
-                        <li>
+                        <li className='footer__Data-Item'>
                             <p className='footer__Data-Item'>
-                                San Pedro 4025, CABA CP: 1407 Buenos Aires, Argentina
+                                <i className="bi bi-geo-alt"></i> San Pedro 4025, CABA CP: 1407 Buenos Aires, Argentina
                             </p>
                         </li>
                     </ul>
