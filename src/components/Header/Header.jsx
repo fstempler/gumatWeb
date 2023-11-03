@@ -10,15 +10,17 @@ const Header = () => {
                     <h1 className='header__Title'>DESARROLLOS A MEDIDA</h1>
                     {/* <h4 className='header__Subtitle'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4> */}
                     <p className='header__Text'>
-                    # Módulos Led 
+                    &#10148; Módulos Led 
                     <br />
-                    # Módulos de Electrónica 
+                    &#10148; Módulos de Electrónica 
                     <br />
-                    # Drivers Led 
+                    &#10148; Drivers Led 
                     <br />
-                    # Protectores de Descarga 
+                    &#10148; Protectores de Descarga 
                     <br />
-                    # Lentes # Fotocontroles
+                    &#10148; Lentes 
+                    <br />
+                    &#10148; Fotocontroles
                     </p>
                 </div>            
        </div>
