@@ -1,8 +1,34 @@
 import './contact.css';
 import Logo from '../../assets/logo_Gumat.png';
+import { useState } from "react";
+
+
+
+
 
 
 const Contact = () => {
+
+    const [name, setName] = useState('');
+    const [lastName, setLastName] = useState('');
+    const [email, setEmail] = useState('');
+    const [tel, setTel] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+    
+
+const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setName('');
+    setLastName('');
+    setEmail('');
+    setTel('');
+    setSubject('');
+    setMessage('');
+            
+}
+
     return (
         <div id='Contact' className='contact__MainContainer'>
             <div className='contact__Title-Container'>
@@ -12,41 +38,56 @@ const Contact = () => {
 
                 <div className='form__Input-Container'>
                 
-                <form>
+                <form onSubmit={handleSubmit}>
 
                     <div className='row'>
                         <div className='col-lg-6 order-lg-1 order-2'>
                                     <div className="mb-3">
-                                        <input 
+                                        <input                                         
                                         type="text" 
                                         className="form-control form__Input" 
                                         id="name"                             
-                                        placeholder='Nombre'                            
+                                        value={name}
+                                        onChange={(e) => setName(e.target.value)}
+                                        placeholder='Nombre'
+                                        required                            
                                         />
                                         <input 
                                         type="text" 
                                         className="form-control form__Input" 
                                         id="lastName"                             
-                                        placeholder='Apellido'                            
+                                        value={lastName}
+                                        onChange={(e) => setLastName(e.target.value)}
+                                        placeholder='Apellido'
+                                        required                            
                                         />
                                         <input 
                                         type="email" 
                                         className="form-control form__Input" 
-                                        id="exampleInputEmail1" 
+                                        id="email" 
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
                                         aria-describedby="emailHelp" 
-                                        placeholder='Email'                            
+                                        placeholder='Email'
+                                        required                            
                                         />
                                         <input 
                                         type="number" 
                                         className="form-control form__Input" 
-                                        id="tel"                             
-                                        placeholder='Teléfono'                            
+                                        id="tel"              
+                                        value={tel}              
+                                        onChange={(e) => setTel(e.target.value)} 
+                                        placeholder='Teléfono'
+                                        required                            
                                         />
                                         <input 
                                         type="text" 
                                         className="form-control form__Input" 
                                         id="subject"                             
-                                        placeholder='Asunto'                            
+                                        value={subject}
+                                        onChange={(e) => setSubject(e.target.value)}
+                                        placeholder='Asunto'
+                                        required                            
                                         />
                                     </div>
                         </div>
@@ -59,9 +100,13 @@ const Contact = () => {
                         <div className='col-12 order-3'>
                             <div className="mb-3">
                                 <textarea className="form-control form__Input-Message" 
-                                    id="exampleFormControlTextarea1"                                 
+                                    id="message"                                 
                                     rows='3'
-                                    placeholder='Mensaje'>
+                                    value={message}
+                                    onChange={(e) => setMessage(e.target.value)}
+                                    placeholder='Mensaje'
+                                    required
+                                    >
                                 </textarea>
                             </div>
                         </div>

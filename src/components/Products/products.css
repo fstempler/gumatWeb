@@ -15,7 +15,7 @@
     align-items: center;
     gap: 10px;  
     position: relative;      
-    padding: 50px;    
+    padding: 50px;        
 }
 .products__Card-Self-Container{
     display: flex;
@@ -30,6 +30,7 @@
     text-align: left;
     font-size: 4rem;
     font-weight: 200;
+    overflow-y: hidden;
 }
 
 @media (max-width: 460px) {
@@ -53,6 +54,7 @@
     .products__Title{
         color: #fff;
         text-align: center;
+        font-size: 3rem;
     }
 
 }

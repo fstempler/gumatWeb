@@ -20,6 +20,7 @@
     color: #ffffff;
     font-size: 4rem;
     font-weight: 200;
+    overflow-y: hidden;
 }
 .about__Data-Container{
     display: flex;
@@ -57,6 +58,13 @@
     } 
     .about__Text{
         font-size: 0.8rem;
+    }
+    .about__Title{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .about__Title-Container{
+        justify-content: center;
     }
 
 }

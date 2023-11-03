@@ -7,6 +7,9 @@
 .navbar{
     background-color: #17171750;
 }
+.logoContainer{
+    margin: 0;    
+}
 .logo{
     width: 10%;
     height: auto;
@@ -22,10 +25,8 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 500;  
+    width: 100%;
 }
-/* .link__Style{
-    color: #ffffff;
-} */
 
 .nav__LanguageBtn-Container{
     display: flex;

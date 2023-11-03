@@ -27,6 +27,7 @@
     text-align: left;
     font-size: 4rem;
     font-weight: 200;
+    overflow-y: hidden;
 }
 
 @media (max-width: 460px) {
@@ -38,5 +39,6 @@
     }
     .pilars__Title{
         text-align: center;
+        font-size: 3rem;
     }
 }

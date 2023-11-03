@@ -1,4 +1,8 @@
+
 .productCard__Container{
     width: 18rem;
     margin: 5px;
+}
+.card-text{
+    font-size: 0.9rem;
 }

@@ -4,9 +4,14 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin: 5px;
+}
+.partnersCard__Img-Container{
+    background-color: #fff;
+    border-radius: 5px;
 }
 .partnersCard__Img{
-    width: 30%;
+    width: 70%;
     height: auto;
 }
 .partnersCard__Title{

@@ -17,6 +17,7 @@
     text-align: left;
     font-size: 4rem;
     font-weight: 200;
+    overflow-y: hidden;
 }
 .contact__Form-Container{      
     position: relative;
@@ -39,15 +40,18 @@
     width: 100%;
     background-color: #00000050;
     border-color: #ED7F38; 
-    margin: 5px 0;   
+    margin: 5px 0;  
+    color: #fff;     
 }
 .form__Input::placeholder {
     color: #fff;
 }
+
 .form__Input-Message{
     width: 100%;
     background-color: #00000050;
     border-color: #ED7F38;    
+    color: #fff; 
 }
 .form__Input-Message::placeholder {
     color: #fff;
@@ -74,10 +78,20 @@
     width: 100%;    
     font-weight: 800px;    
 }
+.form__Btn:hover{
+    background-color: #00000050;
+    color: #fff;
+    border-width: 1px;
+    border-color: #ED7F38;
+}
 
 @media (max-width: 460px){
     .contact__Form-Container{
         top: 50px;        
+    }
+    .contact__Title{
+        font-size: 3rem;
+        text-align: center;
     }
 }
 

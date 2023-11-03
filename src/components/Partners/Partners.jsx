@@ -1,6 +1,13 @@
 import './partners.css';
 import PartnersCard from './components/PartnersCard';
-import Shell_logo from '../../assets/partners/Shell_logo.png' 
+import cree from '../../assets/partners/cree.png' 
+import honglitronic from '../../assets/partners/honglitronic.png' 
+import infineon from '../../assets/partners/infineon.png' 
+import lifud from '../../assets/partners/lifud.png' 
+import microchip from '../../assets/partners/microchip.png' 
+import onsemi from '../../assets/partners/onsemi.png' 
+import samsung from '../../assets/partners/samsung.png' 
+import sosen from '../../assets/partners/sosen.png' 
 
 const Partners = () => {
     return (
@@ -13,16 +20,36 @@ const Partners = () => {
             <div className='partners__Card-Main-Container'>
                 <div className='partners__CardContainer'>
                     <PartnersCard
-                    imageUrl={Shell_logo}
-                    title={"Shell"}
+                    imageUrl={samsung}
+                    title={""}
                     />
                     <PartnersCard
-                    imageUrl={Shell_logo}
-                    title={"Shell"}
+                    imageUrl={honglitronic}
+                    title={""}
                     />
                     <PartnersCard
-                    imageUrl={Shell_logo}
-                    title={"Shell"}
+                    imageUrl={cree}
+                    title={""}
+                    />
+                    <PartnersCard
+                    imageUrl={sosen}
+                    title={""}
+                    />
+                    <PartnersCard
+                    imageUrl={lifud}
+                    title={""}
+                    />
+                    <PartnersCard
+                    imageUrl={microchip}
+                    title={""}
+                    />
+                    <PartnersCard
+                    imageUrl={onsemi}
+                    title={""}
+                    />
+                    <PartnersCard
+                    imageUrl={infineon}
+                    title={""}
                     />
                 </div>
             </div>

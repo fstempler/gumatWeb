@@ -16,24 +16,16 @@ const About = () => {
                     <div className='col-lg-6 order-lg-1 order-2 about__Text-Container'>
                         
                         <p className='about__Text'>
-                            GUMAT produce y comercializa Soluciones Led y Componentes
-                            Auxiliares para los Fabricantes de diversos rubros de la Industria
-                            como Alumbrado Público, Industrial, Automotriz y Cenefas
-                            Comerciales.
+                        Nos especializamos en el desarrollo y la fabricación de Módulos de Electrónica, Módulos Led y Componentes para Iluminación, Línea Blanca e Industria Automotriz.
+                        <br />
+                        Ofrecemos una amplia gama de productos orientados a los Fabricantes de Alumbrado Público, Antiexplosivo, Industrial, Automotriz, Comercial, Señalización y Línea Blanca.
+                        <br />
+                        Contamos con Líneas de montaje electrónico automáticas, un sistema de montaje para trabajos especiales, I+D y un sistema de gestión de calidad a lo largo de todo el proceso productivo.
+                        <br />
+                        Trabajamos con diferentes Marcas de Led y componentes, con el fin de brindar a los fabricantes y ensambladores, distintas soluciones adecuadas para cada segmento de mercado.
+                        <br />
+                        Nuestro modelo de trabajo OEM nos lleva a ser un eslabón clave en la Cadena Industrial, proporcionando soluciones tecnológicas competitivas y de vanguardia que permitan promover el desarrollo de la Industria Nacional, a través de nuestros clientes. Gracias al formato de nuestro proceso productivo, somos competitivos tanto en producciones de gran escala como en las pequeñas.
 
-                            Cuenta con cuatro líneas de Electrónica de montaje SMD y con un
-                            Departamento de Investigación & Desarrollo dinámico, que le permite
-                            delinear una amplia gama de productos estándar y a medida, para
-                            cubrir los requerimientos de cada Cliente, teniendo en cuenta las
-                            nuevas tendencias en materia de componentes, avance en
-                            electrónica y principalmente el formato que van adoptando los
-                            principales fabricantes de lentes y ópticas.
-
-                            GUMAT bajo un formato OEM, entiende que es un eslabón en la
-                            Cadena Industrial, realizando productos para todo aquel que fabrica
-                            con o sin Marca, brindando soluciones tecnológicas que promueven
-                            el desarrollo de la Industria Nacional, potenciando el crecimiento sus
-                            clientes y el propio, a través de ellos.
                         </p>
                         
                     </div>
