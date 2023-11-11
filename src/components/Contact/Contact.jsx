@@ -1,5 +1,6 @@
 import './contact.css';
 import Logo from '../../assets/logo_Gumat.png';
+import emailjs from '@emailjs/browser'
 import { useState } from "react";
 
 
@@ -19,6 +20,8 @@ const Contact = () => {
 
 const handleSubmit = (e) => {
     e.preventDefault();
+
+    emailjs.sendForm('service_5sg58ek', 'template_xzm83e8', e.target, 'XanxmYZRzOyFG7fWH')
 
     setName('');
     setLastName('');
@@ -50,6 +53,7 @@ const handleSubmit = (e) => {
                                         value={name}
                                         onChange={(e) => setName(e.target.value)}
                                         placeholder='Nombre'
+                                        name='name'
                                         required                            
                                         />
                                         <input 
@@ -59,6 +63,7 @@ const handleSubmit = (e) => {
                                         value={lastName}
                                         onChange={(e) => setLastName(e.target.value)}
                                         placeholder='Apellido'
+                                        name='lastName'
                                         required                            
                                         />
                                         <input 
@@ -69,6 +74,7 @@ const handleSubmit = (e) => {
                                         onChange={(e) => setEmail(e.target.value)}
                                         aria-describedby="emailHelp" 
                                         placeholder='Email'
+                                        name='email'
                                         required                            
                                         />
                                         <input 
@@ -78,6 +84,7 @@ const handleSubmit = (e) => {
                                         value={tel}              
                                         onChange={(e) => setTel(e.target.value)} 
                                         placeholder='Teléfono'
+                                        name='tel'
                                         required                            
                                         />
                                         <input 
@@ -87,6 +94,7 @@ const handleSubmit = (e) => {
                                         value={subject}
                                         onChange={(e) => setSubject(e.target.value)}
                                         placeholder='Asunto'
+                                        name='subject'
                                         required                            
                                         />
                                     </div>
@@ -105,6 +113,7 @@ const handleSubmit = (e) => {
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
                                     placeholder='Mensaje'
+                                    name='message'
                                     required
                                     >
                                 </textarea>
