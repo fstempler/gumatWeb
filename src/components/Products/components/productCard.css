@@ -4,5 +4,8 @@
     margin: 5px;
 }
 .card-text{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-top: 10px;
 }

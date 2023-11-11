@@ -1,0 +1,15 @@
+.whatsappButton__Container{
+    position: fixed;    
+    bottom: 30px;
+    right: -500px;
+    z-index: 2000;
+}
+.whatsappButton__Image{
+    width: 10%;
+    height: auto;
+}
+@media only screen and (max-width: 640px){
+    .whatsappButton__Image{
+        width: 5%;        
+    }   
+}

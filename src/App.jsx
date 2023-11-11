@@ -8,6 +8,7 @@ import Products from './components/Products/Products';
 import Partners from './components/Partners/Partners';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import WhatsappButton from './components/WhatsappButton/WhatsappButton';
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   return (
       <BrowserRouter>
         <Navbar />
+        <WhatsappButton />
         <Header />
         <About />
         <Pilars />

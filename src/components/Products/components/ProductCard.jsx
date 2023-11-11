@@ -2,7 +2,7 @@ import './productCard.css'
 
 const ProductCard = ({ imageUrl, text, title }) => {
     return (
-        //style="width: 18rem;
+        
         <div className='productCard__MainContainer'>
             <div className="card text-bg-dark productCard__Container">
                     <img src={imageUrl} className="card-img-top" alt="..." />

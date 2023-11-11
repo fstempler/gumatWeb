@@ -7,9 +7,9 @@ const Header = () => {
             <div className='header__Overlay'></div>
                 <video src={bgVideo} className='header__Video'autoPlay loop muted />
                 <div className='header__Text-Container'>
-                    <h1 className='header__Title'>DESARROLLOS A MEDIDA</h1>
+                    <h1 className='header__Title'>Desarrollo y Fabricación de Módulos para Iluminación y Electrónica</h1>
                     {/* <h4 className='header__Subtitle'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4> */}
-                    <p className='header__Text'>
+                    {/* <p className='header__Text'>
                     &#10148; Módulos Led 
                     <br />
                     &#10148; Módulos de Electrónica 
@@ -21,7 +21,7 @@ const Header = () => {
                     &#10148; Lentes 
                     <br />
                     &#10148; Fotocontroles
-                    </p>
+                    </p> */}
                 </div>            
        </div>
     )
