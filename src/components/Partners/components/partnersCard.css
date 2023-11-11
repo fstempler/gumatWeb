@@ -5,6 +5,7 @@
     flex-direction: column;
     text-align: center;
     margin: 5px;
+    width: auto;
 }
 .partnersCard__Img-Container{
     background-color: #fff;

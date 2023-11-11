@@ -18,40 +18,48 @@ const Partners = () => {
                 </h1>
             </div>
             <div className='partners__Card-Main-Container'>
-                <div className='partners__CardContainer'>
-                    <PartnersCard
-                    imageUrl={samsung}
-                    title={""}
-                    />
-                    <PartnersCard
-                    imageUrl={honglitronic}
-                    title={""}
-                    />
-                    <PartnersCard
-                    imageUrl={cree}
-                    title={""}
-                    />
-                    <PartnersCard
-                    imageUrl={sosen}
-                    title={""}
-                    />
-                    <PartnersCard
-                    imageUrl={lifud}
-                    title={""}
-                    />
-                    <PartnersCard
-                    imageUrl={microchip}
-                    title={""}
-                    />
-                    <PartnersCard
-                    imageUrl={onsemi}
-                    title={""}
-                    />
-                    <PartnersCard
-                    imageUrl={infineon}
-                    title={""}
-                    />
-                </div>
+                
+                    <div className='row partners__Line'>
+                        <PartnersCard
+                        imageUrl={samsung}
+                        title={""}
+                        />
+                        <PartnersCard
+                        imageUrl={honglitronic}
+                        title={""}
+                        />
+                        <PartnersCard
+                        imageUrl={cree}
+                        title={""}
+                        />
+                    </div>
+                    <div className='row partners__Line'>
+                        <PartnersCard
+                        imageUrl={sosen}
+                        title={""}
+                        />
+                        <PartnersCard
+                        imageUrl={lifud}
+                        title={""}
+                        />
+                    </div>
+                    
+                    <div className='row partners__Line'>
+                        <PartnersCard
+                        imageUrl={microchip}
+                        title={""}
+                        />
+                        <PartnersCard
+                        imageUrl={onsemi}
+                        title={""}
+                        />
+                        <PartnersCard
+                        imageUrl={infineon}
+                        title={""}
+                        />
+                    </div>                   
+                    
+                
             </div>
         </div>
     )

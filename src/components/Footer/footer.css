@@ -18,6 +18,7 @@
     text-decoration: none;
     color: #fff;
     margin: 10px 0;
+    font-size: 0.8rem;
 }
 .footer__Copyright-Container{    
     display: flex;
@@ -28,6 +29,7 @@
     color: #fff;
     text-align: center;
     margin: 15px 0;
+    font-size: 0.8rem;  
 }
 .footer__Sitemap-Container{
     display: flex;
@@ -36,7 +38,8 @@
 }
 .footer__Sitemap-Link{
     text-decoration: none;
-    color: #fff;      
+    color: #fff;    
+    font-size: 0.8rem;  
 }
 
 .footer__List{

@@ -33,19 +33,19 @@ const Footer = () => {
                 <div className='col-lg-6 order-lg-2 order-2 footer__Sitemap-Container'>
                         <ul className='footer__List'>
                             <li>
-                                <Link to='#Header' className='footer__Sitemap-Link'>&#10151; Inicio</Link>
+                                <Link to='#Header' className='footer__Sitemap-Link'>Inicio</Link>
                             </li>
                             <li>
-                                <Link to='#About' className='footer__Sitemap-Link'>&#10151; Nosotros</Link>
+                                <Link to='#About' className='footer__Sitemap-Link'>Nosotros</Link>
                             </li>
                             <li>
-                                <Link to='#Pilars' className='footer__Sitemap-Link'>&#10151; Pilares</Link>
+                                <Link to='#Pilars' className='footer__Sitemap-Link'>Pilares</Link>
                             </li>
                             <li>
-                                <Link to='#Products' className='footer__Sitemap-Link'>&#10151; Productos</Link>
+                                <Link to='#Products' className='footer__Sitemap-Link'>Productos</Link>
                             </li>
                             <li>
-                                <Link to='#Contact' className='footer__Sitemap-Link'>&#10151; Contacto</Link>
+                                <Link to='#Contact' className='footer__Sitemap-Link'>Contacto</Link>
                             </li>
                         </ul>
                 </div>                
