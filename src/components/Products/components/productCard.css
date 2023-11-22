@@ -1,5 +1,6 @@
 
 .productCard__Container{
+    height: 100%;
     width: 18rem;
     margin: 5px;
 }

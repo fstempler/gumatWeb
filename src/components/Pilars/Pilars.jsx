@@ -25,7 +25,7 @@ const Pilars = () => {
                         text={"CONCIENCIA EN LA SUSTENTABILIDAD"}
                     />
                     <PilarCard imageUrl={fabrica} 
-                        text={"ENFOQUE EN LOS FABRICANTE Y ENSAMBLADORES NACIONALES"}
+                        text={"ENFOQUE EN LOS FABRICANTES Y ENSAMBLADORES NACIONALES"}
                     />
                     <PilarCard imageUrl={secreto} 
                         text={"MANEJO PROFESIONAL DE LA INFORMACIÓN DEL CLIENTE"}

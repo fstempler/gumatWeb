@@ -11,15 +11,23 @@
 
 .products__CardContainer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;  
     position: relative;      
-    padding: 50px;        
+    padding: 50px;  
+    flex-direction: column;      
+}
+.products__Card-Line{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .products__Card-Self-Container{
     display: flex;
     justify-content: center;
+    margin-top: 5px;
 }
 
 .products__Title-Container{
