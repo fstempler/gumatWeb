@@ -1,10 +1,16 @@
 import './navbar.css';
 import logo  from '../../assets/logo_Gumat.png';
 import { HashLink as Link } from 'react-router-hash-link';
+import { useTranslation } from 'react-i18next';
 
 
 const Navbar = () => {         
-   
+   const { t, i18n } = useTranslation();
+
+   const changeLanguage = () => {
+    const newLanguage = i18n.language === 'es' ? 'en' : 'es';
+    i18n.changeLanguage(newLanguage);
+  };
 
     return (
         
@@ -24,7 +30,7 @@ const Navbar = () => {
                                 aria-current="page" 
                                 to="#About" 
                                 smooth>
-                                NOSOTROS
+                                {t('nosotros')}
                                 </Link>
                             </li>
                             <li className="nav-item">
@@ -36,7 +42,7 @@ const Navbar = () => {
                                 to="#Pilars" 
                                 smooth
                                 >
-                                PILARES                                
+                                {t('pilares')}                        
                                 </Link>
                             </li>
                             <li className="nav-item">
@@ -48,7 +54,7 @@ const Navbar = () => {
                                 to="#Products" 
                                 smooth
                                 >
-                                PRODUCTOS
+                                {t('productos')}
                                 </Link>
                             </li>
                             <li className="nav-item">
@@ -60,22 +66,17 @@ const Navbar = () => {
                                 to="#Contact" 
                                 smooth
                                 >
-                                CONTACTO
+                                {t('contacto')}
                                 </Link>
                             </li>                            
                             <li className="nav-item">
                                 <div className='nav__LanguageBtn-Container'>
-                                    <Link 
-                                    className="nav-link active nav__Btn" 
-                                    // data-bs-toggle="collapse" 
-                                    data-bs-target=".navbar-collapse.show" 
-                                    aria-current="page" to="#" smooth
-                                    >
-                                    <i className="bi bi-toggle-on link__Style"></i>    
+                                <button className="nav-link active nav__Btn" onClick={changeLanguage}>
+                                    <i className={`bi bi-toggle-${i18n.language === 'es' ? 'on' : 'off'} link__Style`}></i>
                                     <span className='LanguageBtn'>
-                                        EN
+                                        {t('languageButton')}
                                     </span>
-                                    </Link>
+                                </button>
                                 </div>                                
                             </li>                            
                         </ul>                        

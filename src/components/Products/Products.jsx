@@ -5,14 +5,20 @@ import lineales from '../../assets/products/lineales.jpg';
 import automotriz from '../../assets/products/automotriz.jpg';
 import horticultura from '../../assets/products/horticultura.jpg';
 import driver from '../../assets/products/driver.jpg'
+import { useTranslation } from 'react-i18next';
+
+
 
 const Products = () => {
+
+    const { t } = useTranslation();
+
     return (
         <>
         <div id='Products' className='products__MainContainer'>
             <div className='products__Title-Container'>
                 <h1 className='products__Title'>
-                    PRODUCTOS
+                    {t('productos')}
                 </h1>
             </div>
             
@@ -21,43 +27,23 @@ const Products = () => {
                         <div className='col-xl-4 col-md-6 col-lg-6 products__Card-Self-Container'>
                             <ProductCard 
                             imageUrl={potencia}
-                            title={"Módulos Potencia"}
-                            text={`Para Alumbrado Público, Industrial, Antiexplosivo, Deportivo.
-                            PCB: FR4, Metalcore u otro.
-                            Con o sin bornera rápida, con salida de cables.
-                            Con o sin sensor NTC para comandar el Driver por excesos de Temperatura.
-                            Para Driver de Corriente o Tensión Constante, 12/24vcc o Driver-on-board.
-                            Led: de media, baja y alta potencia.
-                            Rango de 2500k a 6500k en blanco y en colores.
-                            `}
+                            title={t('MPTitle')}
+                            text={t('MPText')}
                             />
                         </div>
 
                         <div className='col-xl-4 col-md-6 col-lg-6 products__Card-Self-Container'>
                           <ProductCard 
                             imageUrl={lineales}
-                            title={"Módulos Lineales"}
-                            text={`Para Alumbrado Comercial, Antiexplosivo, Señalética.
-                            PCB: FR4, Metalcore u otro.
-                            Con o sin bornera rápida, con salida de cables.
-                            Para Driver de Corriente o Tensión Constante, 12/24vcc o Driver-on-board.
-                            Led: de media, baja y alta potencia.
-                            Rango de 2500k a 6500k en blanco y en colores.
-                            `}
+                            title={t('MLTitle')}
+                            text={t('MLText')}
                             />
                         </div>
                         <div className='col-xl-4 col-md-6 col-lg-6 products__Card-Self-Container'>
                             <ProductCard 
                             imageUrl={automotriz}
-                            title={"Módulos Automotriz"}
-                            text={`Para faros delanteros, traseros, laterales, niebla, direccionamiento.
-                            PCB: FR4, Metalcore u otro.
-                            Con o sin bornera rápida, con salida de cables.
-                            12/24vcc, Bi-voltaje
-                            Posición, Freno, Baliza, Giro, Luz Cortesía, Patente.
-                            Led: de media, baja y alta potencia.
-                            Rango de 2500k a 6500k en blanco y en colores.
-                            `}
+                            title={t('MATitle')}
+                            text={t('MAText')}
                             />
                         </div>
                     </div>
@@ -66,23 +52,15 @@ const Products = () => {
                         <div className='col-xl-4 col-md-6 col-lg-6 products__Card-Self-Container'>
                             <ProductCard 
                             imageUrl={horticultura}
-                            title={"Módulos Horticultura"}
-                            text={`Para vegetación, floración y cultivos indoor específicos.
-                            PCB: FR4, Metalcore u otro.
-                            Con o sin bornera rápida, con salida de cables.
-                            Para Driver de Corriente o Tensión Constante, 12/24vcc o Driver-on-board.
-                            Led: de media, baja y alta potencia Horticultura.
-                            Rango de 2500k a 6500k en blanco, Rojo, rojo lejano, Azul y UV.
-                            `}
+                            title={t('MHTitle')}
+                            text={t('MHText')}
                             />
                         </div>
                         <div className='col-xl-4 col-md-6 col-lg-6 products__Card-Self-Container'>
                             <ProductCard 
                             imageUrl={driver}
-                            title={"Drivers Led"}
-                            text={`Drivers de Corriente Constante para Alumbrado Público e Industrial, on-off, corriente de salida parametrizable, dimerizable.
-                            Drivers de Tensión Constante para tiras de Led.
-                            `}
+                            title={t('DLTitle')}
+                            text={t('DLText')}
                             />
                     </div>
 

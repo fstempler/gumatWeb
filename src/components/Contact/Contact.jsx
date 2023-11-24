@@ -2,13 +2,12 @@ import './contact.css';
 import Logo from '../../assets/logo_Gumat.png';
 import emailjs from '@emailjs/browser'
 import { useState } from "react";
-
-
-
-
+import { useTranslation } from 'react-i18next';
 
 
 const Contact = () => {
+
+    const { t } = useTranslation();
 
     const [name, setName] = useState('');
     const [lastName, setLastName] = useState('');
@@ -52,7 +51,7 @@ const handleSubmit = (e) => {
                                         id="name"                             
                                         value={name}
                                         onChange={(e) => setName(e.target.value)}
-                                        placeholder='Nombre'
+                                        placeholder={t('formName')}
                                         name='name'
                                         required                            
                                         />
@@ -62,7 +61,7 @@ const handleSubmit = (e) => {
                                         id="lastName"                             
                                         value={lastName}
                                         onChange={(e) => setLastName(e.target.value)}
-                                        placeholder='Apellido'
+                                        placeholder={t('formLastName')}
                                         name='lastName'
                                         required                            
                                         />
@@ -83,7 +82,7 @@ const handleSubmit = (e) => {
                                         id="tel"              
                                         value={tel}              
                                         onChange={(e) => setTel(e.target.value)} 
-                                        placeholder='Teléfono'
+                                        placeholder={t('formTel')}
                                         name='tel'
                                         required                            
                                         />
@@ -93,7 +92,7 @@ const handleSubmit = (e) => {
                                         id="subject"                             
                                         value={subject}
                                         onChange={(e) => setSubject(e.target.value)}
-                                        placeholder='Asunto'
+                                        placeholder={t('formSubject')}
                                         name='subject'
                                         required                            
                                         />
@@ -112,7 +111,7 @@ const handleSubmit = (e) => {
                                     rows='3'
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
-                                    placeholder='Mensaje'
+                                    placeholder={t('formMessage')}
                                     name='message'
                                     required
                                     >
@@ -122,7 +121,7 @@ const handleSubmit = (e) => {
                     </div>    
                         <div className='form__Btn-Container'>
                             <button type="submit" className="btn form__Btn">
-                                Enviar
+                                {t('formSend')}
                             </button>
                         </div>
                         

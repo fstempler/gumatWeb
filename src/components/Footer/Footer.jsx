@@ -1,7 +1,11 @@
 import { HashLink as Link } from 'react-router-hash-link';
+import { useTranslation } from 'react-i18next';
 import './footer.css'
 
 const Footer = () => {
+
+    const { t } = useTranslation()
+    
     return (
         <div className='footer__MainContainer'>
             <div className='row'>
@@ -33,19 +37,19 @@ const Footer = () => {
                 <div className='col-lg-6 order-lg-2 order-2 footer__Sitemap-Container'>
                         <ul className='footer__List'>
                             <li>
-                                <Link to='#Header' className='footer__Sitemap-Link'>Inicio</Link>
+                                <Link to='#Header' className='footer__Sitemap-Link'>{t('inicio')}</Link>
                             </li>
                             <li>
-                                <Link to='#About' className='footer__Sitemap-Link'>Nosotros</Link>
+                                <Link to='#About' className='footer__Sitemap-Link'>{t('nosotros')}</Link>
                             </li>
                             <li>
-                                <Link to='#Pilars' className='footer__Sitemap-Link'>Pilares</Link>
+                                <Link to='#Pilars' className='footer__Sitemap-Link'>{t('pilares')}</Link>
                             </li>
                             <li>
-                                <Link to='#Products' className='footer__Sitemap-Link'>Productos</Link>
+                                <Link to='#Products' className='footer__Sitemap-Link'>{t('productos')}</Link>
                             </li>
                             <li>
-                                <Link to='#Contact' className='footer__Sitemap-Link'>Contacto</Link>
+                                <Link to='#Contact' className='footer__Sitemap-Link'>{t('contacto')}</Link>
                             </li>
                         </ul>
                 </div>                
