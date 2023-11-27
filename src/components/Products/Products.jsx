@@ -33,10 +33,10 @@ const Products = () => {
                         </div>
 
                         <div className='col-xl-4 col-md-6 col-lg-6 products__Card-Self-Container'>
-                          <ProductCard 
-                            imageUrl={lineales}
-                            title={t('MLTitle')}
-                            text={t('MLText')}
+                            <ProductCard 
+                            imageUrl={horticultura}
+                            title={t('MHTitle')}
+                            text={t('MHText')}
                             />
                         </div>
                         <div className='col-xl-4 col-md-6 col-lg-6 products__Card-Self-Container'>
@@ -51,10 +51,10 @@ const Products = () => {
 
                         <div className='col-xl-4 col-md-6 col-lg-6 products__Card-Self-Container'>
                             <ProductCard 
-                            imageUrl={horticultura}
-                            title={t('MHTitle')}
-                            text={t('MHText')}
-                            />
+                            imageUrl={lineales}
+                            title={t('MLTitle')}
+                            text={t('MLText')}
+                            />  
                         </div>
                         <div className='col-xl-4 col-md-6 col-lg-6 products__Card-Self-Container'>
                             <ProductCard 

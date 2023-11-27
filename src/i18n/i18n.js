@@ -72,6 +72,7 @@ i18n
       },
       en: {
         translation: {
+            inicio: 'HOME',
             nosotros: 'ABOUT US',
             pilares: 'PRINCIPLES',
             productos: 'PRODUCTS',
@@ -118,13 +119,13 @@ i18n
                       White 2500k to 6500k, and colors.
                     `,        
             MHTitle: 'Horticultural Modules:',
-            MHText: `Para vegetación, floración y cultivos indoor específicos.
-                              PCB: FR4, Metalcore u otro.
-                              Con o sin bornera rápida, con salida de cables.
-                              Para Driver de Corriente o Tensión Constante, 12/24vcc o Driver-on-board.
-                              Led: de media, baja y alta potencia Horticultura.
-                              Rango de 2500k a 6500k en blanco, Rojo, rojo lejano, Azul y UV.
-                            `,            
+            MHText: `For vegetative stage, flowering stage, indoor specific grows.
+                      PCB: FR4, Metalcore, others.
+                      With/without SMD connector, wire Access.
+                      For Current or Voltage Constant Led Driver, 12/24vcc or DOB.
+                      Led: Horticulture Led Low, Medium and Hi-Power.
+                      White 2500k to 6500k, Hiper Red, Far Red, Blue, UV.
+                      `,            
             DLTitle: 'Led Drivers:',
             DLText: `Constant Current Drivers for Industrial and Street Light, on-off, dimmable, output current settable.
                       Constant Voltage Led Drivers for Led Strips.

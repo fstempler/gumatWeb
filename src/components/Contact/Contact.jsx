@@ -34,7 +34,7 @@ const handleSubmit = (e) => {
     return (
         <div id='Contact' className='contact__MainContainer'>
             <div className='contact__Title-Container'>
-                <h1 className='contact__Title'>CONTACTO</h1>
+                <h1 className='contact__Title'>{t('contacto')}</h1>
             </div>
             <div className='contact__Form-Container'>
 
