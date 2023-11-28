@@ -5,7 +5,7 @@ const PartrnersCard = ({ imageUrl, title }) => {
     return (
         <div className='partnersCard__Main-Container'>
             <div className='partnersCard__Img-Container'>
-                <img src={imageUrl} className='partnersCard__Img'/>
+                <img src={imageUrl} className='partnersCard__Img' alt="Gumat Partners Logo"/>
             </div>
             <div className='partnersCard__Title-Container'>
                 <h2 className='partnersCard__Title'>{title}</h2>

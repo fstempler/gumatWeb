@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className='navbar__container'>
             <nav className="navbar navbar-expand-lg navbar-dark mbg-body-transparent navbar-fixed-top">
                 <div className="container-fluid">
-                    <Link className="navbar-brand logoContainer" to="#Header" smooth><img className="logo" src={logo}/></Link>
+                    <Link className="navbar-brand logoContainer" to="#Header" smooth><img className="logo" src={logo} alt="Gumat Logo"/></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

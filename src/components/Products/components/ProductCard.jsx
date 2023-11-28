@@ -5,7 +5,7 @@ const ProductCard = ({ imageUrl, text, title }) => {
         
         <div className='productCard__MainContainer'>
             <div className="card text-bg-dark productCard__Container">
-                    <img src={imageUrl} className="card-img-top" alt="..." />
+                    <img src={imageUrl} className="card-img-top" alt="Imagen Producto Gumat" />
                 <div className="card-body productCard__Data-Container">
                     <h5 className="card-title">
                         {title}

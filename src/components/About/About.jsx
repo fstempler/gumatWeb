@@ -26,7 +26,7 @@ const About = () => {
                         
                     </div>
                     <div className='col-lg-6 order-lg-2 order-1 about__Video-Container'>
-                        <video src={video} className='about__Video' autoPlay loop muted />
+                        <video src={video} className='about__Video' autoPlay loop muted alt="Video Led Gumat"/>
                     </div>
                 </div>
 
