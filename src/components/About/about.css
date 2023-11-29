@@ -25,13 +25,16 @@
 .about__Data-Container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
+    align-items: center;    
+    flex-direction: column;
+}
+.about__Row{
+    justify-content: center;    
 }
 
 .about__Text-Container{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;    
     position: relative;    
     padding: 20px;        
@@ -39,6 +42,7 @@
 
 .about__Text{
     color: white;
+    font-size: 1.3rem;    
 }
 .about__Video-Container{
     display: flex;
@@ -58,6 +62,7 @@
     } 
     .about__Text{
         font-size: 0.8rem;
+        text-align: center;
     }
     .about__Title{
         font-size: 3rem;
@@ -65,6 +70,5 @@
     }
     .about__Title-Container{
         justify-content: center;
-    }
-
+    }    
 }
