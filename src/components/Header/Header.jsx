@@ -1,6 +1,5 @@
 import './header.css'
 import bgVideo from '../../assets/header/VID-6.mp4'
-// import { useTransition } from 'react'
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
