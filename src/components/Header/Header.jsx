@@ -24,7 +24,7 @@ const Header = () => {
     return (
        <div className='header__MainContainer' id='Header'>
             <div className='header__Overlay'></div>
-                <video src={bgVideo} ref={videoRef} className='header__Video'autoPlay loop muted playsInline alt="Gumat video fábrica"/>
+                <video src={bgVideo} ref={videoRef} className='header__Video'autoPlay loop muted playsInline alt="Gumat video fábrica" data-wf-ignore="true" />
                 <div className='header__Text-Container'>
                     <h1 className='header__Title'>{t('headerTitle')}</h1>                    
                 </div>            
