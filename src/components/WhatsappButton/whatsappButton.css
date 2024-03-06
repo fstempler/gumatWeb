@@ -4,6 +4,18 @@
     right: -500px;
     z-index: 2000;
 }
+.whatsappButton__Container2{
+    position: fixed;    
+    bottom: 80px;
+    right: -500px;
+    z-index: 2500;
+}
+
+.whatsappButton__Title{
+    margin-right: 5px;
+    color: #fff;
+    text-decoration: none;
+}
 .whatsappButton__Image{
     width: 7%;
     height: auto;
